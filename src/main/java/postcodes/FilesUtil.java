@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 /**
- * Postcodes utils.
+ * Files util.
  */
 public final class FilesUtil {
 
@@ -50,5 +50,4 @@ public final class FilesUtil {
 
         if (!lines.isEmpty()) map.put(file.toFile().getName(), lines);
     }
-
 }
